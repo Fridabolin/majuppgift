@@ -3,15 +3,13 @@
     padding:0;
 }
 
+/*body*/
 body {
-
     background-image: url(globe-technology-business-with-gradient-wallpaper.jpg);
     background-size:cover;
     background-position: right;
     display:flex;
     width: 100%;
-   
-    
 }
 
 .container {
@@ -33,18 +31,14 @@ header {
   width: 20rem;
   height:2rem;
   border-bottom: 2px solid #66CDAA;
-  
-
   Color:white;
   padding-top:1rem;
   padding-bottom:1rem;
 }
 
-
 header img:nth-child(2) {
   padding-right:5px;
 }
-
 
 /*section 1*/
 
@@ -76,8 +70,6 @@ header img:nth-child(2) {
   color:white;
 }
 
-
-
 /* section 2 */
 
 .form {
@@ -100,7 +92,6 @@ header img:nth-child(2) {
     flex-direction:row;
     flex-wrap: wrap;
     width:100%;
-    
   }
   
   .column {
@@ -128,15 +119,9 @@ header img:nth-child(2) {
       outline: none !important;
       border:1px lightgray;
       box-shadow: 0 0 10px #66CDAA;
-      padding:5px 0px 5px;
-      
+      padding:5px 0px 5px; 
   }
-
-  .form-control{
-    width: 100%;
-    color:grey;
-  }
-  
+ 
 .submit {
     background-color:#66CDAA;
     padding: 5px;
@@ -149,6 +134,15 @@ header img:nth-child(2) {
   border:1px lightgray;
   box-shadow: 0 0 10px #66CDAA;
   margin-top:10px;
+  width: 100%;
+  color:grey;
+  color:grey;
+}
+
+.form-control:hover{
+  background-color:#66CDAA;
+  transition:2s;
+  color:white;
 }
 
 /*footer*/
