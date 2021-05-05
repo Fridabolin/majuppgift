@@ -36,8 +36,8 @@ header {
   padding-bottom:1rem;
 }
 
-header img:nth-child(2) {
-  padding-right:5px;
+img {
+  width:3em;
 }
 
 /*section 1*/
